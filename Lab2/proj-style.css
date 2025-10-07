@@ -1,0 +1,126 @@
+* {
+    font-family: "Inter";
+}
+
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.news-item {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 370px;
+    height: auto;
+}
+
+.main-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-bottom: 1px solid #ccc;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #ccc;
+    justify-content: space-between;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
+.sidebar-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.sidebar-header-text {
+    padding-left: 16px;
+    color: #354153;
+}
+
+.sidebar-navigation-list {
+    padding-right: 60px;
+    width: 100%;
+}
+
+.main-page {
+    width: 100%;
+}
+
+.custom-select {
+    border-radius: 5px;
+    background-color: white;
+    border-color: rgb(206, 206, 206);
+    border-top-color: rgb(206, 206, 206);
+    border-top-width: 1px;
+    border-width: 1px;
+    height: 30px;
+}
+
+.news-types {
+    display: flex;
+    flex-direction: column; 
+    list-style-type: none;
+}
+
+.news-types li {
+    margin-bottom: 10px;
+    color: #354153;
+}
+
+.news-item p {
+    color: #354153;
+}
+
+.news-item header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.news-item header :first-child {
+    padding-left: 24px;
+}
+
+.news-item header :last-child {
+    padding-right: 24px;
+}
+
+.news-item img {
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.news-item h3 {
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.news-item-description {
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url(Fonts/Inter-VariableFont_opsz\,wght.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
