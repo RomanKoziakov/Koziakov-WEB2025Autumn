@@ -23,55 +23,54 @@
             <div class="navButtons">
             <button class="navButtons-contactButton">Contact Us</button>
             <div class="lang-container">
-                <p style="padding-left: 10px; padding-top: 5px;">🇩🇪</p>
+                <p class="langButton-text">🇩🇪</p>
                 <button id="deButton" class="langButton">De.</button>
-                <p style="padding-left: 10px; padding-top: 5px;">🇬🇧</p>
+                <p class="langButton-text">🇬🇧</p>
                 <button id="engButton" class="langButton">En.</button>
-                <p style="padding-left: 10px; padding-top: 5px;">🇫🇷</p>
+                <p class="langButton-text">🇫🇷</p>
                 <button id="frButton" class="langButton">Fr.</button>
             </div>
             </div>
         </div>
         <div class="openPageMedianGrid">
             <div style="margin-left: 100px;">
-            <p style="font-size: 64px; color: white;">Civil <b>Engineering Solutions</b> <br>For The <b>Cement</b> Industry</p>
-            <p style="font-size: 25px; color: white;">We are your leading partner for complex brownfield <br>construction projects during ongoing operation.</p>
-            <p style="font-size: 25px; color: white;">Benefit from engineering excellence built on <br> more than 30 years of industry experience.</p>
-            <button style="width: 194px; height: 51px; border-color: white; border-width: 2px; background-color: rgb(6, 37, 91, 0.4); color: white; font-size: 15px; cursor: pointer; margin-right: 20px;">How can we serve you</button>
-            <button style="background-color: white; color: #06255B; border-width: 0px; width: 133px; height: 51px; font-size: 15px; cursor: pointer; font-family: 'Source Sans Pro Bold'; cursor: pointer;">Contact Us</button>
+            <p id="openPageMedianGrid-header">Civil <b>Engineering Solutions</b> <br>For The <b>Cement</b> Industry</p>
+            <p class="openPageMedianGrid-sideText">We are your leading partner for complex brownfield <br>construction projects during ongoing operation.</p>
+            <p class="openPageMedianGrid-sideText">Benefit from engineering excellence built on <br> more than 30 years of industry experience.</p>
+            <button id="openPageMedianGrid-serveButton">How can we serve you</button>
+            <button id="openPageMedianGrid-contactButton">Contact Us</button>
             </div>
             <div class="openPageMedianGrid-squares">
                 <div id="divSquareAgilContainer">
                     <div id="divSquareAgil">
                         <p>Agil.</p>
                     </div>
-                    <div style="z-index: 1; border: 1px solid #FF7C40; width: 124px; height: 124px; transform: rotate(-45deg); position: absolute; top: 10px; left: -20px;"></div>
+                    <div id="divSquareAgil-back"></div>
                 </div>
                 <div id="divSquareGanContainer">
                     <div id="divSquareGan">
                         <p>Ganzheitlich.</p>
                     </div>
-                    <div style="z-index: 1; border: 1px solid white; width: 151px; height: 151px; transform: rotate(-45deg); position: absolute; bottom: 10px; left: 9px;"></div>
+                    <div id="divSquareGan-back"></div>
                 </div>
                 <div id="divSquareZuvContainer">
                     <div id="divSquareZuv">
                         <p>Zuverlässig.</p>
                     </div>
-                    <div style="z-index: 1; border: 1px solid white; width: 177px; height: 177px; transform: rotate(-45deg); position: absolute; top: 40px; left: 9px;"></div>
+                    <div id="divSquareZuv-back"></div>
                 </div>
             </div>
-            <div style="position: absolute; right: -400px; width: 618px; height: 618px;">
-                <div style="position: absolute; height: 618px; width: 618px; transform: rotate(-45deg); background-color: rgba(218, 93, 36, 0.8); z-index: 2;"></div>
-                <div style="position: absolute; top: 30px; left: 10px; height: 618px; width: 618px; transform: rotate(-45deg); border: 1px solid white; z-index: 1;"></div>
-                <div style="position: absolute; bottom: 40px; left: 10px; height: 618px; width: 618px; transform: rotate(-45deg); border: 1px solid rgba(218, 93, 36); z-index: 1;"></div>
+            <div id="openPage-sideSquares">
+                <div id="openPage-sideSquares-main"></div>
+                <div id="openPage-sideSquares-white"></div>
+                <div id="openPage-sideSquares-or"></div>
             </div>
         </div>
     </div>
-    <div id="factoryBackground">
-    </div>
-    <div style="margin-left: 300px; margin-top: 100px; position: absolute; z-index: 1;">
-        <p style="font-size: 40px; color: white; font-family: 'Source Sans Pro Bold';">Comprehensive <br>Structural Engineering <br>Services</p>
-        <p style="font-size: 18px; color: white;">We accompany you from the first idea of your <br>next construction project from the first idea <br>to successful execution.</p>
+    <div id="factoryBackground"></div>
+    <div id="services-descriptionText">
+        <p id="services-descriptionText-header">Comprehensive <br>Structural Engineering <br>Services</p>
+        <p id="services-descriptionText-main">We accompany you from the first idea of your <br>next construction project from the first idea <br>to successful execution.</p>
     </div>
     <div id="servicesContainer">
         <div id="servicesContainer-grid">
@@ -435,7 +434,7 @@
             </div>
         </div>
     </div>
-    <div style="grid-template-columns: 216px 216px; border-bottom: none;" class="engineersGrid">
+    <div style="grid-template-columns: 216px 216px 310px;" class="engineersGrid">
         <div class="engineersGrid-elem">
             <img src="./images/sonntag.png" alt="">
             <p>Michelle<br>Michalik</p>
