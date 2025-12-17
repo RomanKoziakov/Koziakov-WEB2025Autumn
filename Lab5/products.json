@@ -1,0 +1,38 @@
+[
+  {
+    "price": "30 000 руб",
+    "brand": "Каменный остров",
+    "description": "Жилет с нашивкой компасом",
+    "imagePath": "images/image1.jpg",
+    "imageUrl": "images/product1.png",
+    "overlay": "Каменный остров",
+    "overlayDescription": "Инновации и функциональность находятся в приоритете у Каменного острова, о чем свидетельствует этот жилет"
+  },
+  {
+    "price": "18 800 руб",
+    "brand": "АМИ Париж",
+    "description": "Полосатая рубашка с коротким рукавом",
+    "imagePath": "images/image2.jpg",
+    "imageUrl": "images/product2.png",
+    "overlay": "АМИ Париж",
+    "overlayDescription": "В этой модели АМИ Париж представляет смелый взгляд на классический силуэт рубашки"
+  },
+  {
+    "price": "47 300 руб",
+    "brand": "Вквадрате2",
+    "description": "Укороченные брюки с вышитым логотипом",
+    "imagePath": "images/image3.jpg",
+    "imageUrl": "images/product3.png",
+    "overlay": "Вквадрате2",
+    "overlayDescription": "Сделано в Италии"
+  },
+  {
+    "price": "19 000 руб",
+    "brand": "Акне Студия",
+    "description": "Полосатый двубортный блейзер",
+    "imagePath": "images/image4.jpg",
+    "imageUrl": "images/product4.png",
+    "overlay": "Акне",
+    "overlayDescription": "Лацканы из светло-серой шерсти в вертикальную полоску"
+  }
+]
